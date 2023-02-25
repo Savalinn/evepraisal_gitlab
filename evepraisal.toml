@@ -1,9 +1,9 @@
 http_addr=":8080"
 https_addr=""
-management_addr="127.0.0.1:8090"
+management_addr=":8090"
 http_redirect=false
 letsencrypt_email=""
-https_domain-whitelist=["evepraisal.com"]
+https_domain-whitelist=["evepraisal.zimacorp.space"]
 
 base-url="http://127.0.0.1:8080"
 
@@ -13,7 +13,7 @@ extra-js=""
 db_path="db/"
 backup_path="db/backups/"
 
-newrelic_app-name="Evepraisal"
+newrelic_app-name="Zima Corp Evepraisal"
 newrelic_license-key=""
 
 esi_baseurl="https://esi.evetech.net/latest"
